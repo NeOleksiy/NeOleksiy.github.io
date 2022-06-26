@@ -1,0 +1,97 @@
+body {
+   background:  url(backgr.jpg);
+    background-size: 100%;
+    margin: 0 auto;
+    color: #20B2AA;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Container
+=====================*/
+
+.container {
+    width:100%;
+    max-width:1170px;
+    margin: 0 auto;
+}
+
+.intro_container {
+    width:100%;
+    max-width:1170px;
+    margin: 0 auto;
+}
+
+
+/* Header
+=====================*/
+.header{
+width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 118px;
+}
+
+
+.backgroundmain {
+background:  url(2214477.jpg) no-repeat ;
+background-size: 100%;
+
+}
+
+.title {
+font-weight: 700;
+font-size: 30px;
+line-height: 50px;
+text-align: center;
+text-transform: uppercase;
+align-items: center;
+    color:yellow;
+    margin: 0 auto;
+}
+
+.line {
+    padding: 20px;
+    border-bottom: 1px solid yellow;
+    display: flex;
+}
+
+
+/* nav
+=====================*/
+.nav {
+    font-size:20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-items: center;
+    opacity: 1;
+    margin: 0 auto;
+}
+
+.nav_link {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color:yellow;
+    transition: opacity 0.2s linear;
+}
+
+.nav_link:hover {
+    opacity: 0.75;
+}
+
+
+main{
+width: 100%;
+    position: center;
+    top: 0;
+    left: 0;
+}
