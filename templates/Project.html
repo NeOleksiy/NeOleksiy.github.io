@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='design.css') }}">
+    <title>тада</title>
+  </head>
+      <body>
+
+<header class="header">
+ <div class="container">
+    <div class="backgroundmain">
+        <h1 class="title">
+            <center>Моя визитка</center>
+        </h1>
+          <div class="nav">
+            <div class="line">
+                <a class="nav_link" href="{{ url_for('hello_world') }}">О себе</a>
+                <a class="nav_link" href="{{ url_for('Project_f') }}">Мои проект</a>
+                <a class="nav_link" href="#">Мои соц-сети и github</a>
+                <a class="nav_link" href="#">Прекол</a>
+            </div>
+          </div>
+    </div>
+  </div>
+</header>
+
+
+
+    </body>
+</html>
