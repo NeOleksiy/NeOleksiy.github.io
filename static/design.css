@@ -1,8 +1,10 @@
 body {
    background:  url(backgr.jpg);
     background-size: 100%;
+    font-family: Arial, serif;
     margin: 0 auto;
-    color: #20B2AA;
+    color: Chartreuse;
+     zoom: 90%
 
 }
 
@@ -89,9 +91,123 @@ align-items: center;
 }
 
 
-main{
-width: 100%;
+.main{
+    width: 100%;
+    font-weight: 200;
     position: center;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 170%;
+    margin-top: 200px;
+    margin-left: 40px;
     top: 0;
     left: 0;
+}
+
+.imgindex{
+ width: 600px;
+    margin-left: 10px;
+    margin-right: 3px;
+    float: left;
+    border: 3px solid #696969;
+}
+
+
+.Net{
+    align-items: center;
+    display: table-cell;
+    vertical-align: middle
+
+}
+.netimg {
+    text-decoration: none;
+    color:yellow;
+    transition: opacity 0.2s linear;
+}
+
+.imgnetset {
+    width: 100px;
+    margin-left: 20px;
+    float: left;
+    border: 3px solid yellow;
+}
+
+.dl{
+    margin-top: 200px;
+    margin-left: 200px;
+
+}
+
+.h1{
+    margin-top: 190px;
+    text-align: center;
+    font-size:30px;
+}
+
+A {
+    color: GreenYellow;
+   }
+
+.footer {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    left: 0;
+    bottom: 0; /* Левый нижний угол */
+    padding: 50px; /* Поля вокруг текста */
+    background:  url(2214477.jpg) no-repeat ;
+    background-size: 100%;
+}
+
+.footer0 {
+    width: 100%;
+    position:fixed;
+    align-items: center;
+    right: 0;
+    bottom: 0; /* Левый нижний угол */
+    padding: 20px; /* Поля вокруг текста */
+    background:  url(2214477.jpg) no-repeat ;
+    background-size: 100%;
+}
+
+.logo{
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 3px;
+    border: 3px solid #696969;
+}
+
+.navf {
+    font-size:20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-items: center;
+    opacity: 1;
+    margin: 0 auto;
+}
+
+.nav_linkf {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color:yellow;
+    transition: opacity 0.2s linear;
+    float: left;
+}
+
+.name{
+    margin-left: auto;
+    margin-right: 100px;
+    text-decoration: none;
+    color:DeepPink;
+    transition: opacity 0.2s linear;
+    float: left;
+    font-weight: 700;
+    font-family: Arial, serif, cursive;
+}
+
+.line0 {
+    padding: 0px;
+    border-bottom: 1px solid Deeppink;
+    display: flex;
 }

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='design.css') }}">
+    <title>тада</title>
+  </head>
+      <body>
+
+<!-- Header -->
+<header class="header">
+ <div class="container">
+    <div class="backgroundmain">
+        <h1 class="title">
+            <center>Моя визитка</center>
+        </h1>
+          <div class="nav">
+            <div class="line">
+                <a class="nav_link" href="{{ url_for('hello_world') }}">О себе</a>
+                <a class="nav_link" href="{{ url_for('Project_f') }}">Телеграм бот</a>
+                <a class="nav_link" href="{{ url_for('Net') }}">Регистрация</a>
+                <a class="nav_link" href="{{ url_for('Neuralweb') }}">Сайт с Нейросетью</a>
+                <a class="nav_link" href="{{ url_for('Sitecard') }}">Сайт-визитка</a>
+            </div>
+          </div>
+    </div>
+  </div>
+</header>
+<main class="main">
+    <div class="myself">
+        <p>
+            <img class="imgindex" src="/static/shlopa.jpg" alt="">
+         Меня зовут Алексей, мне  19 лет, закончил первый курс университета МТУСИ.<br>
+        На этом сайте представлены мои проекты за первый год обучения.<br>
+            Такие как телеграм бот с расписанием, сайт регистрация с бд, сайт с нейронной сетью и сайт визитка.<br>
+        Здесь же можно найти и ссылку на мои сети и страницу GitHub.<br>
+        Good luck and have fun.<br>
+        </p>
+    </div>
+</main>
+<footer class="footer0">
+    <div class="navf">
+        <div class="line0">
+        <p class="name">Ефименко Алексей БВТ2107</p>
+        <a class="nav_linkf" href="https://t.me/CoRTeZzZzZzZz"><img class="logo" src="/static/tg.png" alt=""></a>
+        <a class="nav_linkf" href="https://vk.com/pshol_von_ubludok"><img class="logo" src="/static/VK.png" alt=""></a>
+        <a class="nav_linkf" href="https://steamcommunity.com/id/Totecchochelovek/"><img class="logo" src="/static/steam.jpg" alt=""></a>
+        <a class="nav_linkf" href="https://github.com/NeOleksiy"><img class="logo" src="/static/github.png" alt=""></a>
+        </div>
+    </div>
+</footer>
+
+
+      </body>
+</html>
