@@ -6,7 +6,7 @@
       <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
     <title>тада</title>
   </head>
-      <body>
+  <body>
 
 <header class="header">
  <div class="container">
@@ -26,66 +26,68 @@
     </div>
   </div>
 </header>
-<div class="h1">
+    <div class="h1">
     <h2>
         <a href="https://github.com/NeOleksiy/Efimenko_BVT2107/tree/main/Registration">Registration</a>
     </h2>
-</div>
-
-<main class="main">
-    <div class="all">
-		<input checked type="radio" name="respond" id="desktop">
-			<article id="slider">
-					<input checked type="radio" name="slider" id="switch1">
-					<input type="radio" name="slider" id="switch2">
-					<input type="radio" name="slider" id="switch3">
-					<input type="radio" name="slider" id="switch4">
-					<input type="radio" name="slider" id="switch5">
-				<div id="slides">
-					<div id="overflow">
-						<div class="image">
-							<article><img src="/static/reg1.png"></article>
-							<article><img src="/static/reg2.png"></article>
-							<article><img src="/static/reg3.png"></article>
-						</div>
-					</div>
-				</div>
-				<div id="controls">
-					<label for="switch1"></label>
-					<label for="switch2"></label>
-					<label for="switch3"></label>
-				</div>
-				<div id="active">
-					<label for="switch1"></label>
-					<label for="switch2"></label>
-					<label for="switch3"></label>
-				</div>
-			</article>
-	</div>
-    <div class="myself">
-        <p>
-         Это работа первого семестра. <br>
-            В ней я сделал сайт с регистрацией и вводом логина и пароля.<br>
-        Сайт написан на языке Python с использованием фреймворка Flask и базы данных PostgreSQL.<br>
-        На сайте пользователь может зарегестрироваться, придумав свой логин и пароль,<br>
-            которые занесутся в базу данных, по которым можно будет залогиниться.<br>
-            Этот сайт может с лёгкостью быть интегрирование в любые другие проекты,
-        а также может быть дополнен собственными стилями.<br>
-            <a href="https://github.com/NeOleksiy/Efimenko_BVT2107/tree/main/Registration">Ссылка на проект</a><br>
-        </p>
     </div>
+<div class="container">
+<main class="main">
+        <div class="container">
+        <div class="all">
+            <input checked type="radio" name="respond" id="desktop">
+			    <article id="slider">
+					    <input checked type="radio" name="slider" id="switch1">
+					    <input type="radio" name="slider" id="switch2">
+					    <input type="radio" name="slider" id="switch3">
+				    <div id="slides">
+					    <div id="overflow">
+						    <div class="image">
+							    <article><img src="/static/reg1.png"></article>
+							    <article><img src="/static/reg2.png"></article>
+							    <article><img src="/static/reg3.png"></article>
+						    </div>
+					    </div>
+				    </div>
+				    <div id="controls">
+					    <label for="switch1"></label>
+					    <label for="switch2"></label>
+					    <label for="switch3"></label>
+				    </div>
+				    <div id="active">
+					    <label for="switch1"></label>
+					    <label for="switch2"></label>
+					    <label for="switch3"></label>
+				    </div>
+			    </article>
+	    </div>
+        <div class="myself">
+            <p>
+                Это работа первого семестра. <br>
+                В ней я сделал сайт с регистрацией и вводом логина и пароля.<br>
+                Сайт написан на языке Python с использованием фреймворка Flask и базы данных PostgreSQL.<br>
+                На сайте пользователь может зарегестрироваться, придумав свой логин и пароль,<br>
+                которые занесутся в базу данных, по которым можно будет залогиниться.<br>
+                Этот сайт может с лёгкостью быть интегрирование в любые другие проекты,
+                а также может быть дополнен собственными стилями.<br>
+                <a href="https://github.com/NeOleksiy/Efimenko_BVT2107/tree/main/Registration">Ссылка на проект</a><br>
+            </p>
+        </div>
+        </div>
 </main>
 <footer class="footer">
+    <div class="container">
     <div class="navf">
         <div class="line0">
         <p class="name">Ефименко Алексей БВТ2107</p>
         <a class="nav_linkf" href="https://t.me/CoRTeZzZzZzZz"><img class="logo" src="/static/tg.png" alt=""></a>
         <a class="nav_linkf" href="https://vk.com/pshol_von_ubludok"><img class="logo" src="/static/VK.png" alt=""></a>
-        <a class="nav_linkf" href="https://steamcommunity.com/id/Totecchochelovek/"><img class="logo" src="/static/steam.jpg" alt=""></a>
+        <a class="nav_linkf" href="https://steamcommunity.com/id/Totecchochelovek/"><img class="logo" src="/static/steam-logo.png" alt=""></a>
         <a class="nav_linkf" href="https://github.com/NeOleksiy"><img class="logo" src="/static/github.png" alt=""></a>
         </div>
     </div>
+    </div>
 </footer>
-
-    </body>
+</div>
+  </body>
 </html>
